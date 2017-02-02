@@ -503,6 +503,7 @@
 				7463C2621E37A5BC00FF20B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7463C2631E37A5BC00FF20B8 /* Build configuration list for PBXNativeTarget "Lion Card AppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +512,7 @@
 				7463C2651E37A5BC00FF20B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7463C2661E37A5BC00FF20B8 /* Build configuration list for PBXNativeTarget "Lion Card AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +521,7 @@
 				7463C2681E37A5BC00FF20B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,23 +10,34 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var qrcodeImage: CIImage!
-
-    
-    
-
-    @IBOutlet weak var imgQRCode: UIImageView!
-    @IBOutlet weak var btnAction: UIButton!
     @IBOutlet weak var textField: UITextField!
-  
-   
-    @IBAction func performButtonAction(sender: AnyObject){
+    
+    @IBOutlet weak var imgQRCode: UIImageView!
+    
+    @IBOutlet weak var btnAction: UIButton!
+    
+    
+    
+    var qrcodeImage: CIImage!
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    
+    
+    @IBAction func performButtonAction(sender: AnyObject) {
         if qrcodeImage == nil {
             if textField.text == "" {
-                
+                return
+            }
             
-            
-            let data = textField.text?.data (using: String.Encoding.isoLatin1, allowLossyConversion: false)
+            let data = textField.text?.data(using: String.Encoding.isoLatin1, allowLossyConversion: false)
             
             let filter = CIFilter(name: "CIQRCodeGenerator")
             
@@ -35,42 +46,34 @@ class ViewController: UIViewController {
             
             qrcodeImage = filter?.outputImage
             
-            imgQRCode.image = UIImage(ciImage: qrcodeImage)
-            
             textField.resignFirstResponder()
             
             btnAction.setTitle("Clear", for: UIControlState.normal)
+            
+            displayQRCodeImage()
         }
         else {
             imgQRCode.image = nil
             qrcodeImage = nil
             btnAction.setTitle("Generate", for: UIControlState.normal)
         }
-            return
-    }
-    }
-    
-
-
-
-    @IBAction func changeImageViewScale(sender: AnyObject){
         
+        textField.isEnabled = !textField.isEnabled
     }
-
-
+    
+   
+    
+    // MARK: Custom method implementation
+    
+    func displayQRCodeImage() {
+        let scaleX = imgQRCode.frame.size.width / qrcodeImage.extent.size.width
+        let scaleY = imgQRCode.frame.size.height / qrcodeImage.extent.size.height
+        
+        let transformedImage = qrcodeImage.applying(CGAffineTransform(scaleX: scaleX, y: scaleY))
+        
+        imgQRCode.image = UIImage(ciImage: transformedImage)
+    }
     
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
