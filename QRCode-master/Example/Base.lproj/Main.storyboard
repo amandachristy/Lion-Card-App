@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqS-ai-36C">
+                                <rect key="frame" x="155" y="92" width="64" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Generate"/>
+                            </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jd7-dt-8LC">
+                                <rect key="frame" x="31" y="226" width="312" height="252"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ldq-nY-0QF">
+                                        <rect key="frame" x="44" y="19" width="224" height="214"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="9jy-Mn-nqj"/>
+                                            <constraint firstAttribute="height" constant="200" id="UnJ-fd-fo5"/>
+                                            <constraint firstAttribute="height" constant="222" id="ezL-8U-5is"/>
+                                            <constraint firstAttribute="width" constant="222" id="mVl-vD-5kx"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="9jy-Mn-nqj"/>
+                                                <exclude reference="UnJ-fd-fo5"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ldq-nY-0QF" firstAttribute="top" secondItem="jd7-dt-8LC" secondAttribute="top" id="RIE-D1-LnN"/>
+                                    <constraint firstItem="ldq-nY-0QF" firstAttribute="leading" secondItem="jd7-dt-8LC" secondAttribute="leading" constant="2" id="YBb-0w-JcN"/>
+                                    <constraint firstAttribute="bottom" secondItem="ldq-nY-0QF" secondAttribute="bottom" id="lhH-GG-qWZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="jd7-dt-8LC" secondAttribute="centerX" id="7jy-z8-Tvk"/>
+                            <constraint firstAttribute="centerY" secondItem="jd7-dt-8LC" secondAttribute="centerY" id="mhm-cD-MLB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageViewLarge" destination="ldq-nY-0QF" id="EJ8-R6-65e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
+        </scene>
+    </scenes>
+</document>
