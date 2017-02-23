@@ -21,26 +21,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="imgQRCode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="id7-JQ-4rY">
-                                <rect key="frame" x="153" y="43" width="93" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rqv-5t-m7d">
-                                <rect key="frame" x="87" y="233" width="200" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="Ixk-a6-qHD"/>
-                                    <constraint firstAttribute="width" constant="200" id="sHX-td-RWx"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMY-5z-K2w">
-                                <rect key="frame" x="153" y="526" width="64" height="30"/>
+                                <rect key="frame" x="130" y="141" width="116" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Generate"/>
+                                <state key="normal" title="Generate qrcode"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i8a-3S-oSe">
-                                <rect key="frame" x="35" y="85" width="300" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BHN-2H-ZpN">
+                                <rect key="frame" x="87" y="248" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eH6-ua-wdR">
+                                <rect key="frame" x="139" y="97" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -48,12 +39,6 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Rqv-5t-m7d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="04i-Ig-m1T"/>
-                            <constraint firstItem="id7-JQ-4rY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6cy-Pa-MGh"/>
-                            <constraint firstItem="id7-JQ-4rY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qhh-aG-MUf"/>
-                            <constraint firstItem="Rqv-5t-m7d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aaz-GV-mSn"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bE9-Qi-9nW"/>
                 </viewController>

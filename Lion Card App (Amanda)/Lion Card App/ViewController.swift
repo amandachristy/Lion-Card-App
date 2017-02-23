@@ -6,74 +6,70 @@
 //  Copyright © 2017 Amanda Christy. All rights reserved.
 //
 
-import UIKit
+/*import UIKit
+class ViewConroller: UIViewController {
+
+func generateQRCode(from string: String) -> UIImage? {
+    let data = string.data(using: String.Encoding.ascii)
+    
+    if let filter = CIFilter(name: "CIQRCodeGenerator") {
+        filter.setValue(data, forKey: "inputMessage")
+        let transform = CGAffineTransform(scaleX: 3, y: 3)
+        
+        if let output = filter.outputImage?.applying(transform) {
+            return UIImage(ciImage: output)
+        }
+    }
+    
+    return nil
+}
+
+
+
+}
+
+
+
+*/
+ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var textField: UITextField!
+    @IBOutlet var tfInput: UITextField!
+    @IBOutlet var imageDisplay: UIImageView!
     
-    @IBOutlet weak var imgQRCode: UIImageView!
-    
-    @IBOutlet weak var btnAction: UIButton!
-    
-    
-    
-    var qrcodeImage: CIImage!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning(){
         super.didReceiveMemoryWarning()
+    
+    
     }
     
     
     
-    @IBAction func performButtonAction(sender: AnyObject) {
-        if qrcodeImage == nil {
-            if textField.text == "" {
-                return
-            }
-            
-            let data = textField.text?.data(using: String.Encoding.isoLatin1, allowLossyConversion: false)
-            
-            let filter = CIFilter(name: "CIQRCodeGenerator")
-            
-            filter?.setValue(data, forKey: "inputMessage")
-            filter?.setValue("Q", forKey: "inputCorrectionLevel")
-            
-            qrcodeImage = filter?.outputImage
-            
-            textField.resignFirstResponder()
-            
-            btnAction.setTitle("Clear", for: UIControlState.normal)
-            
-            displayQRCodeImage()
+    @IBAction func Barcode(sender: AnyObject){
+        imageDisplay.image = generateBarcodeFromString(string: tfInput.text!)
+    }
+    
+    func generateBarcodeFromString(string: String) -> UIImage? {
+        let data = string.data(using: String.Encoding.ascii)
+        let filter = CIFilter(name: "CIQRCodeGenerator")
+        
+        filter?.setValue(data, forKey: "inputMessage")
+        let transform = CGAffineTransform(scaleX: 10, y: 10)
+        
+        let output = filter?.outputImage?.applying(transform)
+        if (output != nil) {
+            return UIImage(ciImage: output!)
         }
-        else {
-            imgQRCode.image = nil
-            qrcodeImage = nil
-            btnAction.setTitle("Generate", for: UIControlState.normal)
+        return nil;
         }
-        
-        textField.isEnabled = !textField.isEnabled
-    }
-    
-   
-    
-    // MARK: Custom method implementation
-    
-    func displayQRCodeImage() {
-        let scaleX = imgQRCode.frame.size.width / qrcodeImage.extent.size.width
-        let scaleY = imgQRCode.frame.size.height / qrcodeImage.extent.size.height
-        
-        let transformedImage = qrcodeImage.applying(CGAffineTransform(scaleX: scaleX, y: scaleY))
-        
-        imgQRCode.image = UIImage(ciImage: transformedImage)
-    }
-    
-    
 }
+
+
 
