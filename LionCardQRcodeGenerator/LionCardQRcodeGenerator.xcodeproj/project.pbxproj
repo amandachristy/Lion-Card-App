@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02767151E563A9A006D210B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02767141E563A9A006D210B /* AppDelegate.swift */; };
+		D02767171E563A9A006D210B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02767161E563A9A006D210B /* ViewController.swift */; };
+		D027671A1E563A9A006D210B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02767181E563A9A006D210B /* Main.storyboard */; };
+		D027671D1E563A9A006D210B /* LionCardQRcodeGenerator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D027671B1E563A9A006D210B /* LionCardQRcodeGenerator.xcdatamodeld */; };
+		D027671F1E563A9A006D210B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D027671E1E563A9A006D210B /* Assets.xcassets */; };
+		D02767221E563A9A006D210B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02767201E563A9A006D210B /* LaunchScreen.storyboard */; };
+		D027672D1E563A9A006D210B /* LionCardQRcodeGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D027672C1E563A9A006D210B /* LionCardQRcodeGeneratorTests.swift */; };
+		D02767381E563A9A006D210B /* LionCardQRcodeGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02767371E563A9A006D210B /* LionCardQRcodeGeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D02767291E563A9A006D210B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02767091E563A9A006D210B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02767101E563A9A006D210B;
+			remoteInfo = LionCardQRcodeGenerator;
+		};
+		D02767341E563A9A006D210B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02767091E563A9A006D210B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02767101E563A9A006D210B;
+			remoteInfo = LionCardQRcodeGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D02767111E563A9A006D210B /* LionCardQRcodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionCardQRcodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02767141E563A9A006D210B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D02767161E563A9A006D210B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D02767191E563A9A006D210B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D027671C1E563A9A006D210B /* LionCardQRcodeGenerator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LionCardQRcodeGenerator.xcdatamodel; sourceTree = "<group>"; };
+		D027671E1E563A9A006D210B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D02767211E563A9A006D210B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D02767231E563A9A006D210B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02767281E563A9A006D210B /* LionCardQRcodeGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionCardQRcodeGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D027672C1E563A9A006D210B /* LionCardQRcodeGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionCardQRcodeGeneratorTests.swift; sourceTree = "<group>"; };
+		D027672E1E563A9A006D210B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02767331E563A9A006D210B /* LionCardQRcodeGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionCardQRcodeGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02767371E563A9A006D210B /* LionCardQRcodeGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionCardQRcodeGeneratorUITests.swift; sourceTree = "<group>"; };
+		D02767391E563A9A006D210B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D027670E1E563A9A006D210B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02767251E563A9A006D210B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02767301E563A9A006D210B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02767081E563A9A006D210B = {
+			isa = PBXGroup;
+			children = (
+				D02767131E563A9A006D210B /* LionCardQRcodeGenerator */,
+				D027672B1E563A9A006D210B /* LionCardQRcodeGeneratorTests */,
+				D02767361E563A9A006D210B /* LionCardQRcodeGeneratorUITests */,
+				D02767121E563A9A006D210B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D02767121E563A9A006D210B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D02767111E563A9A006D210B /* LionCardQRcodeGenerator.app */,
+				D02767281E563A9A006D210B /* LionCardQRcodeGeneratorTests.xctest */,
+				D02767331E563A9A006D210B /* LionCardQRcodeGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D02767131E563A9A006D210B /* LionCardQRcodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				D02767141E563A9A006D210B /* AppDelegate.swift */,
+				D02767161E563A9A006D210B /* ViewController.swift */,
+				D02767181E563A9A006D210B /* Main.storyboard */,
+				D027671E1E563A9A006D210B /* Assets.xcassets */,
+				D02767201E563A9A006D210B /* LaunchScreen.storyboard */,
+				D02767231E563A9A006D210B /* Info.plist */,
+				D027671B1E563A9A006D210B /* LionCardQRcodeGenerator.xcdatamodeld */,
+			);
+			path = LionCardQRcodeGenerator;
+			sourceTree = "<group>";
+		};
+		D027672B1E563A9A006D210B /* LionCardQRcodeGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D027672C1E563A9A006D210B /* LionCardQRcodeGeneratorTests.swift */,
+				D027672E1E563A9A006D210B /* Info.plist */,
+			);
+			path = LionCardQRcodeGeneratorTests;
+			sourceTree = "<group>";
+		};
+		D02767361E563A9A006D210B /* LionCardQRcodeGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D02767371E563A9A006D210B /* LionCardQRcodeGeneratorUITests.swift */,
+				D02767391E563A9A006D210B /* Info.plist */,
+			);
+			path = LionCardQRcodeGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D02767101E563A9A006D210B /* LionCardQRcodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D027673C1E563A9A006D210B /* Build configuration list for PBXNativeTarget "LionCardQRcodeGenerator" */;
+			buildPhases = (
+				D027670D1E563A9A006D210B /* Sources */,
+				D027670E1E563A9A006D210B /* Frameworks */,
+				D027670F1E563A9A006D210B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionCardQRcodeGenerator;
+			productName = LionCardQRcodeGenerator;
+			productReference = D02767111E563A9A006D210B /* LionCardQRcodeGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D02767271E563A9A006D210B /* LionCardQRcodeGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D027673F1E563A9A006D210B /* Build configuration list for PBXNativeTarget "LionCardQRcodeGeneratorTests" */;
+			buildPhases = (
+				D02767241E563A9A006D210B /* Sources */,
+				D02767251E563A9A006D210B /* Frameworks */,
+				D02767261E563A9A006D210B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D027672A1E563A9A006D210B /* PBXTargetDependency */,
+			);
+			name = LionCardQRcodeGeneratorTests;
+			productName = LionCardQRcodeGeneratorTests;
+			productReference = D02767281E563A9A006D210B /* LionCardQRcodeGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D02767321E563A9A006D210B /* LionCardQRcodeGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02767421E563A9A006D210B /* Build configuration list for PBXNativeTarget "LionCardQRcodeGeneratorUITests" */;
+			buildPhases = (
+				D027672F1E563A9A006D210B /* Sources */,
+				D02767301E563A9A006D210B /* Frameworks */,
+				D02767311E563A9A006D210B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02767351E563A9A006D210B /* PBXTargetDependency */,
+			);
+			name = LionCardQRcodeGeneratorUITests;
+			productName = LionCardQRcodeGeneratorUITests;
+			productReference = D02767331E563A9A006D210B /* LionCardQRcodeGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D02767091E563A9A006D210B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sabin Kim ";
+				TargetAttributes = {
+					D02767101E563A9A006D210B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D02767271E563A9A006D210B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D02767101E563A9A006D210B;
+					};
+					D02767321E563A9A006D210B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D02767101E563A9A006D210B;
+					};
+				};
+			};
+			buildConfigurationList = D027670C1E563A9A006D210B /* Build configuration list for PBXProject "LionCardQRcodeGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D02767081E563A9A006D210B;
+			productRefGroup = D02767121E563A9A006D210B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D02767101E563A9A006D210B /* LionCardQRcodeGenerator */,
+				D02767271E563A9A006D210B /* LionCardQRcodeGeneratorTests */,
+				D02767321E563A9A006D210B /* LionCardQRcodeGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D027670F1E563A9A006D210B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02767221E563A9A006D210B /* LaunchScreen.storyboard in Resources */,
+				D027671F1E563A9A006D210B /* Assets.xcassets in Resources */,
+				D027671A1E563A9A006D210B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02767261E563A9A006D210B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02767311E563A9A006D210B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D027670D1E563A9A006D210B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02767171E563A9A006D210B /* ViewController.swift in Sources */,
+				D027671D1E563A9A006D210B /* LionCardQRcodeGenerator.xcdatamodeld in Sources */,
+				D02767151E563A9A006D210B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02767241E563A9A006D210B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D027672D1E563A9A006D210B /* LionCardQRcodeGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D027672F1E563A9A006D210B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02767381E563A9A006D210B /* LionCardQRcodeGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D027672A1E563A9A006D210B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02767101E563A9A006D210B /* LionCardQRcodeGenerator */;
+			targetProxy = D02767291E563A9A006D210B /* PBXContainerItemProxy */;
+		};
+		D02767351E563A9A006D210B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02767101E563A9A006D210B /* LionCardQRcodeGenerator */;
+			targetProxy = D02767341E563A9A006D210B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D02767181E563A9A006D210B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02767191E563A9A006D210B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D02767201E563A9A006D210B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02767211E563A9A006D210B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D027673A1E563A9A006D210B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D027673B1E563A9A006D210B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D027673D1E563A9A006D210B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LionCardQRcodeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Mark-s-School.LionCardQRcodeGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D027673E1E563A9A006D210B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LionCardQRcodeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Mark-s-School.LionCardQRcodeGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D02767401E563A9A006D210B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LionCardQRcodeGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Mark-s-School.LionCardQRcodeGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionCardQRcodeGenerator.app/LionCardQRcodeGenerator";
+			};
+			name = Debug;
+		};
+		D02767411E563A9A006D210B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LionCardQRcodeGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Mark-s-School.LionCardQRcodeGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionCardQRcodeGenerator.app/LionCardQRcodeGenerator";
+			};
+			name = Release;
+		};
+		D02767431E563A9A006D210B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LionCardQRcodeGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Mark-s-School.LionCardQRcodeGeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LionCardQRcodeGenerator;
+			};
+			name = Debug;
+		};
+		D02767441E563A9A006D210B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LionCardQRcodeGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Mark-s-School.LionCardQRcodeGeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LionCardQRcodeGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D027670C1E563A9A006D210B /* Build configuration list for PBXProject "LionCardQRcodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D027673A1E563A9A006D210B /* Debug */,
+				D027673B1E563A9A006D210B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D027673C1E563A9A006D210B /* Build configuration list for PBXNativeTarget "LionCardQRcodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D027673D1E563A9A006D210B /* Debug */,
+				D027673E1E563A9A006D210B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D027673F1E563A9A006D210B /* Build configuration list for PBXNativeTarget "LionCardQRcodeGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02767401E563A9A006D210B /* Debug */,
+				D02767411E563A9A006D210B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D02767421E563A9A006D210B /* Build configuration list for PBXNativeTarget "LionCardQRcodeGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02767431E563A9A006D210B /* Debug */,
+				D02767441E563A9A006D210B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D027671B1E563A9A006D210B /* LionCardQRcodeGenerator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D027671C1E563A9A006D210B /* LionCardQRcodeGenerator.xcdatamodel */,
+			);
+			currentVersion = D027671C1E563A9A006D210B /* LionCardQRcodeGenerator.xcdatamodel */;
+			path = LionCardQRcodeGenerator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D02767091E563A9A006D210B /* Project object */;
+}
