@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -21,39 +21,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="26h-eP-luK">
-                                <rect key="frame" x="123" y="256" width="129" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="129" id="uYD-ma-BTT"/>
-                                    <constraint firstAttribute="height" constant="30" id="zUw-he-XYi"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U8N-IM-Jcu">
-                                <rect key="frame" x="123" y="323" width="129" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="146" id="87O-d3-oW1"/>
-                                    <constraint firstAttribute="height" constant="30" id="gOE-z9-eDf"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUe-TO-kuD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUe-TO-kuD">
                                 <rect key="frame" x="139" y="421" width="96" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="acn-86-LDu"/>
-                                    <constraint firstAttribute="width" constant="146" id="gcG-NJ-92F"/>
+                                    <constraint firstAttribute="width" constant="96" id="6Vj-ja-Yw3"/>
+                                    <constraint firstAttribute="height" constant="50" id="ACP-ml-R6A"/>
                                 </constraints>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="LoginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F8H-hb-hdt"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="26h-eP-luK">
+                                <rect key="frame" x="123" y="254" width="129" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="V7m-GP-IQt"/>
+                                    <constraint firstAttribute="width" constant="129" id="X3j-Qi-Crh"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U8N-IM-Jcu">
+                                <rect key="frame" x="123" y="315" width="129" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="6Q0-nk-mRA"/>
+                                    <constraint firstAttribute="height" constant="37" id="GP3-cX-zZq"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="U8N-IM-Jcu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3zN-Gk-nVM"/>
+                            <constraint firstItem="SUe-TO-kuD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9De-GD-UgC"/>
+                            <constraint firstItem="SUe-TO-kuD" firstAttribute="top" secondItem="U8N-IM-Jcu" secondAttribute="bottom" constant="69" id="Itm-cP-dTw"/>
+                            <constraint firstItem="26h-eP-luK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NJS-8j-6KR"/>
+                            <constraint firstItem="SUe-TO-kuD" firstAttribute="top" secondItem="U8N-IM-Jcu" secondAttribute="bottom" constant="69" id="Uz8-AL-Iry"/>
+                            <constraint firstItem="26h-eP-luK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="234" id="WHP-Hl-sk2"/>
+                            <constraint firstItem="U8N-IM-Jcu" firstAttribute="top" secondItem="26h-eP-luK" secondAttribute="bottom" constant="31" id="X1l-lP-eam"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="_login_button" destination="SUe-TO-kuD" id="AZ2-Te-Xl8"/>
