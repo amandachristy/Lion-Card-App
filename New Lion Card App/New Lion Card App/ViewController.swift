@@ -54,7 +54,11 @@ class ViewController: UIViewController {
     
     func DoLogin(_ user:String, _ psw:String)
     {
+<<<<<<< HEAD
         let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1" )
+=======
+        let url = URL(string: "")
+>>>>>>> origin/master
         let session = URLSession.shared
         
         let request = NSMutableURLRequest(url:url!)
