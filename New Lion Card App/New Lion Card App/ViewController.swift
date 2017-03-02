@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     
     func DoLogin(_ user:String, _ psw:String)
     {
-        let url = URL(string: "hhtp://www.google.com")
+        let url = URL(string: "")
         let session = URLSession.shared
         
         let request = NSMutableURLRequest(url:url!)
