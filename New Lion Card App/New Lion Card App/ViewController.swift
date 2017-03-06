@@ -54,11 +54,27 @@ class ViewController: UIViewController {
     
     func DoLogin(_ user:String, _ psw:String)
     {
-<<<<<<< HEAD
-        let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1" )
-=======
-        let url = URL(string: "")
->>>>>>> origin/master
+        let session_data = "{" +
+        "\"firstName\" : \"Keri A.\"," +
+        "\"lastName\" : \"Card\"," +
+        "\"cardholderId\" : \"1\"," +
+        "\"activeCardNumber\" : \"6565440000000010\"," +
+        "\"IssuerID\": \"123\"," +
+        "\"mobileURL\":\" https://dev.campuscardcenter.com/m\"," +
+        '"accounts" : [ {{' +
+        '"account" : {' +
+        '"plan" : "Campus Cash",' +
+        '"type" : "PTS"' +
+        '"balance" : 11.12' +
+        '} } ],' +
+        '"success" : true' +
+        "}";
+        
+        preferences.set(session_data, forKey: "session")
+        /*
+         let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1" )
+
+ 
         let session = URLSession.shared
         
         let request = NSMutableURLRequest(url:url!)
@@ -66,7 +82,7 @@ class ViewController: UIViewController {
         
         let paramToSend = "username" + user + "&password=" + psw
         
-        request.httpBody = paramToSend.data(using: String.Encoding.utf8)
+       request.httpBody = paramToSend.data(using: String.Encoding.utf8)
         
         let task = session.dataTask(with: request as URLRequest, completionHandler: {(data, response, error) in
             guard let _:Data = data else
@@ -106,7 +122,7 @@ class ViewController: UIViewController {
             
             
         })
-        
+        */
         task.resume()
         
         
