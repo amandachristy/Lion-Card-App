@@ -61,14 +61,16 @@ class ViewController: UIViewController {
         "\"activeCardNumber\" : \"6565440000000010\"," +
         "\"IssuerID\": \"123\"," +
         "\"mobileURL\":\" https://dev.campuscardcenter.com/m\"," +
-        '"accounts" : [ {{' +
-        '"account" : {' +
-        '"plan" : "Campus Cash",' +
-        '"type" : "PTS"' +
-        '"balance" : 11.12' +
-        '} } ],' +
-        '"success" : true' +
+        "\"accounts\" :\" [ {{\"'" +
+        "\"account\" : \"{" +
+        "\"plan\" : \"Campus Cash\"," +
+        "\"type\" : \"PTS\"," +
+        "\"balance\" : \"11.12\"," +
+        "\"} } ]\"," +
+        "\"success\" : \"true\"," +
         "}";
+        
+        let preferences = UserDefaults.standard
         
         preferences.set(session_data, forKey: "session")
         /*
@@ -122,8 +124,8 @@ class ViewController: UIViewController {
             
             
         })
+         task.resume()
         */
-        task.resume()
         
         
     }
