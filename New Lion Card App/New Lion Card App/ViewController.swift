@@ -13,10 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet var _username: UITextField!
     @IBOutlet var _password: UITextField!
     @IBOutlet var _login_button: UIButton!
+    
+    private var preferences = UserDefaults.standard
 
     override func viewDidLoad() {
         
-        let preferences = UserDefaults.standard
         if(preferences.object(forKey: "session") != nil){
             LoginDone()
         }
@@ -33,7 +34,7 @@ class ViewController: UIViewController {
         
         if(_login_button.titleLabel?.text == "Logout")
         {
-            let preferences = UserDefaults.standard
+            preferences = UserDefaults.standard
             preferences.removeObject(forKey: "session")
             
             LoginToDo()
@@ -69,10 +70,7 @@ class ViewController: UIViewController {
         "\"} } ]\"," +
         "\"success\" : \"true\"," +
         "}";
-        
-        let preferences = UserDefaults.standard
-        
-        preferences.set(session_data, forKey: "session")
+
         /*
          let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1" )
 
@@ -112,13 +110,11 @@ class ViewController: UIViewController {
             if let data_block = server_response["data"] as? NSDictionary
             {
                 if let session_data = data_block["session"] as? String
-                {
-                    
-                    let preferences = UserDefaults.standard
+                {*/
                     preferences.set(session_data, forKey: "session")
-                    
+
                     DispatchQueue.main.async(execute: self.LoginDone)
-                }
+                /*}
             }
             
             
@@ -146,6 +142,7 @@ class ViewController: UIViewController {
     
     func LoginDone()
     {
+        
         _username.isEnabled = false
         _password.isEnabled = false
         
