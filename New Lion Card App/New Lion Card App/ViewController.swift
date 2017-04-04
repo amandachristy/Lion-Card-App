@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+  
     @IBOutlet var _username: UITextField!
     @IBOutlet var _password: UITextField!
     @IBOutlet var _login_button: UIButton!
@@ -55,6 +56,7 @@ class ViewController: UIViewController {
     
     func DoLogin(_ user:String, _ psw:String)
     {
+       
         let session_data = "{" +
         "\"firstName\" : \"Keri A.\"," +
         "\"lastName\" : \"Card\"," +
@@ -139,10 +141,21 @@ class ViewController: UIViewController {
         
         _login_button.setTitle("Login", for: .normal)
 }
+   
+   
     
     func LoginDone()
-    {
         
+        
+        
+    {
+        /*/
+        let loginVC: UIViewController? = self.storyboard?.instantiateViewController(withIdentifier: "lo‌​ginWindow");
+        
+       
+        self.present(loginVC!, animated: true, completion: nil)*/
+        
+        /* need a code to go to next page */
         _username.isEnabled = false
         _password.isEnabled = false
         
@@ -150,6 +163,9 @@ class ViewController: UIViewController {
         
         
         _login_button.setTitle("Logout", for: .normal)
+       
+        
+        
     }
     
 }
