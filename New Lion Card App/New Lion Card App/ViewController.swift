@@ -72,7 +72,7 @@ class ViewController: UIViewController {
         "}";
 
         /*
-         let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1" )
+         let url = URL(string: "https://test.campuscardcenter.com/cs/api/globalLoginValidate" )
 
  
         let session = URLSession.shared
