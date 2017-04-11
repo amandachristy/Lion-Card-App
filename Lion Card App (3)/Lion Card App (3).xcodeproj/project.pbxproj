@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B22D5C81E9D090F00E9A6E4 /* Lion Card App (3)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lion Card App (3)-Bridging-Header.h"; sourceTree = "<group>"; };
 		749689011E93DE560044C324 /* Lion Card App (3).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lion Card App (3).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		749689041E93DE560044C324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		749689061E93DE560044C324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 		749689031E93DE560044C324 /* Lion Card App (3) */ = {
 			isa = PBXGroup;
 			children = (
+				5B22D5C81E9D090F00E9A6E4 /* Lion Card App (3)-Bridging-Header.h */,
 				749689041E93DE560044C324 /* AppDelegate.swift */,
 				749689061E93DE560044C324 /* ViewController.swift */,
 				749689321E93DECB0044C324 /* LionCard.swift */,
@@ -202,6 +204,7 @@
 				TargetAttributes = {
 					749689001E93DE560044C324 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = WR62488W8Z;
 						ProvisioningStyle = Automatic;
 					};
 					749689141E93DE560044C324 = {
@@ -424,10 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WR62488W8Z;
 				INFOPLIST_FILE = "Lion Card App (3)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.stmarksschool.christy.Lion-Card-App--3-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lion Card App (3)/Lion Card App (3)-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -436,10 +441,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WR62488W8Z;
 				INFOPLIST_FILE = "Lion Card App (3)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.stmarksschool.christy.Lion-Card-App--3-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lion Card App (3)/Lion Card App (3)-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -517,6 +524,7 @@
 				7496892B1E93DE560044C324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7496892C1E93DE560044C324 /* Build configuration list for PBXNativeTarget "Lion Card App (3)Tests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				7496892E1E93DE560044C324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7496892F1E93DE560044C324 /* Build configuration list for PBXNativeTarget "Lion Card App (3)UITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +542,7 @@
 				749689311E93DE560044C324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
