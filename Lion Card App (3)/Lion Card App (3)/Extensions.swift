@@ -20,7 +20,7 @@ extension String {
         let keyData = key.data(using: String.Encoding.utf8)
         
         let digestLength = Int(CC_SHA1_DIGEST_LENGTH)
-        let result = UnsafeMutablePointer.allocate(capacity: digestLength)
+        let result = UnsafeMutablePointer<Any>.allocate(capacity: digestLength)
         
         CCHmac(CCHmacAlgorithm(kCCHmacAlgSHA1), (keyData! as NSData).bytes, keyData!.count, (dataToDigest! as NSData).bytes, dataToDigest!.count, result)
         

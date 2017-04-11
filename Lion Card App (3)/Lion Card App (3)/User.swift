@@ -1,5 +1,5 @@
 //
-//  Metrics.swift
+//  User.swift
 //  Lion Card App (3)
 //
 //  Created by Amanda Christy on 4/4/17.
@@ -21,7 +21,7 @@ enum ResponseField: String {
     static let valuesToPull = [TITLE, URL, MOZ_RANK, PAGE_AUTHORITY, DOMAIN_AUTHORITY, EXT_EQUITY_LINKS, TIME_LAST_CRAWLED]
 }
 
-class Metrics {
+class User {
     static let responseFields: [ResponseField:[AnyObject]] = [
         ResponseField.TITLE:["Page Title", 1],
         ResponseField.URL:["Canonical URL", 4],

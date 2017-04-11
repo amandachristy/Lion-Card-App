@@ -1,5 +1,5 @@
 //
-//  LionCard.swift
+//  CardSmith.swift
 //  Lion Card App (3)
 //
 //  Created by Amanda Christy on 4/4/17.
@@ -8,9 +8,9 @@
 
 import Foundation
 
-class LionCard {
+class CardSmith {
     static let urlMetricsURL = "https://lsapi.seomoz.com/linkscape/url-metrics/"
-    static let colsValue = Metrics.responseFields.values.reduce(0){ (total, value) in total + (value[1] as! Int64) }
+    static let colsValue = User.responseFields.values.reduce(0){ (total, value) in total + (value[1] as! Int64) }
     
     class func retrieveDataFromMozAPI(_ urlToSearchFor: String, accessID: String, secretKey: String, completion: @escaping ((_ data: Data?, _ httpResponse: URLResponse?) -> Void)) {
         

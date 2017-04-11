@@ -14,8 +14,8 @@
 		7496890F1E93DE560044C324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7496890D1E93DE560044C324 /* LaunchScreen.storyboard */; };
 		7496891A1E93DE560044C324 /* Lion_Card_App__3_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689191E93DE560044C324 /* Lion_Card_App__3_Tests.swift */; };
 		749689251E93DE560044C324 /* Lion_Card_App__3_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689241E93DE560044C324 /* Lion_Card_App__3_UITests.swift */; };
-		749689331E93DECB0044C324 /* LionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689321E93DECB0044C324 /* LionCard.swift */; };
-		749689351E93DF820044C324 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689341E93DF820044C324 /* Metrics.swift */; };
+		749689331E93DECB0044C324 /* CardSmith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689321E93DECB0044C324 /* CardSmith.swift */; };
+		749689351E93DF820044C324 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689341E93DF820044C324 /* User.swift */; };
 		749689371E93DFAC0044C324 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689361E93DFAC0044C324 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +51,8 @@
 		749689201E93DE560044C324 /* Lion Card App (3)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lion Card App (3)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		749689241E93DE560044C324 /* Lion_Card_App__3_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lion_Card_App__3_UITests.swift; sourceTree = "<group>"; };
 		749689261E93DE560044C324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		749689321E93DECB0044C324 /* LionCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCard.swift; sourceTree = "<group>"; };
-		749689341E93DF820044C324 /* Metrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
+		749689321E93DECB0044C324 /* CardSmith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSmith.swift; sourceTree = "<group>"; };
+		749689341E93DF820044C324 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		749689361E93DFAC0044C324 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,8 +107,8 @@
 				5B22D5C81E9D090F00E9A6E4 /* Lion Card App (3)-Bridging-Header.h */,
 				749689041E93DE560044C324 /* AppDelegate.swift */,
 				749689061E93DE560044C324 /* ViewController.swift */,
-				749689321E93DECB0044C324 /* LionCard.swift */,
-				749689341E93DF820044C324 /* Metrics.swift */,
+				749689321E93DECB0044C324 /* CardSmith.swift */,
+				749689341E93DF820044C324 /* User.swift */,
 				749689361E93DFAC0044C324 /* Extensions.swift */,
 				749689081E93DE560044C324 /* Main.storyboard */,
 				7496890B1E93DE560044C324 /* Assets.xcassets */,
@@ -272,10 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				749689371E93DFAC0044C324 /* Extensions.swift in Sources */,
-				749689331E93DECB0044C324 /* LionCard.swift in Sources */,
+				749689331E93DECB0044C324 /* CardSmith.swift in Sources */,
 				749689071E93DE560044C324 /* ViewController.swift in Sources */,
 				749689051E93DE560044C324 /* AppDelegate.swift in Sources */,
-				749689351E93DF820044C324 /* Metrics.swift in Sources */,
+				749689351E93DF820044C324 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
