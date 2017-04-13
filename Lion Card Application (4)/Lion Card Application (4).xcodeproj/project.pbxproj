@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0EDCE971E9FFF8700EFBB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDCE961E9FFF8700EFBB74 /* AppDelegate.swift */; };
+		D0EDCE991E9FFF8700EFBB74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDCE981E9FFF8700EFBB74 /* ViewController.swift */; };
+		D0EDCE9C1E9FFF8700EFBB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EDCE9A1E9FFF8700EFBB74 /* Main.storyboard */; };
+		D0EDCE9F1E9FFF8700EFBB74 /* Lion_Card_Application__4_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0EDCE9D1E9FFF8700EFBB74 /* Lion_Card_Application__4_.xcdatamodeld */; };
+		D0EDCEA11E9FFF8700EFBB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EDCEA01E9FFF8700EFBB74 /* Assets.xcassets */; };
+		D0EDCEA41E9FFF8700EFBB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EDCEA21E9FFF8700EFBB74 /* LaunchScreen.storyboard */; };
+		D0EDCEAF1E9FFF8700EFBB74 /* Lion_Card_Application__4_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDCEAE1E9FFF8700EFBB74 /* Lion_Card_Application__4_Tests.swift */; };
+		D0EDCEBA1E9FFF8700EFBB74 /* Lion_Card_Application__4_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDCEB91E9FFF8700EFBB74 /* Lion_Card_Application__4_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0EDCEAB1E9FFF8700EFBB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EDCE8B1E9FFF8600EFBB74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0EDCE921E9FFF8700EFBB74;
+			remoteInfo = "Lion Card Application (4)";
+		};
+		D0EDCEB61E9FFF8700EFBB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EDCE8B1E9FFF8600EFBB74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0EDCE921E9FFF8700EFBB74;
+			remoteInfo = "Lion Card Application (4)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0EDCE931E9FFF8700EFBB74 /* Lion Card Application (4).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lion Card Application (4).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EDCE961E9FFF8700EFBB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0EDCE981E9FFF8700EFBB74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0EDCE9B1E9FFF8700EFBB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0EDCE9E1E9FFF8700EFBB74 /* Lion_Card_Application__4_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lion_Card_Application__4_.xcdatamodel; sourceTree = "<group>"; };
+		D0EDCEA01E9FFF8700EFBB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0EDCEA31E9FFF8700EFBB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0EDCEA51E9FFF8700EFBB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EDCEAA1E9FFF8700EFBB74 /* Lion Card Application (4)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lion Card Application (4)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EDCEAE1E9FFF8700EFBB74 /* Lion_Card_Application__4_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lion_Card_Application__4_Tests.swift; sourceTree = "<group>"; };
+		D0EDCEB01E9FFF8700EFBB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EDCEB51E9FFF8700EFBB74 /* Lion Card Application (4)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lion Card Application (4)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EDCEB91E9FFF8700EFBB74 /* Lion_Card_Application__4_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lion_Card_Application__4_UITests.swift; sourceTree = "<group>"; };
+		D0EDCEBB1E9FFF8700EFBB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0EDCE901E9FFF8700EFBB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EDCEA71E9FFF8700EFBB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EDCEB21E9FFF8700EFBB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0EDCE8A1E9FFF8600EFBB74 = {
+			isa = PBXGroup;
+			children = (
+				D0EDCE951E9FFF8700EFBB74 /* Lion Card Application (4) */,
+				D0EDCEAD1E9FFF8700EFBB74 /* Lion Card Application (4)Tests */,
+				D0EDCEB81E9FFF8700EFBB74 /* Lion Card Application (4)UITests */,
+				D0EDCE941E9FFF8700EFBB74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0EDCE941E9FFF8700EFBB74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDCE931E9FFF8700EFBB74 /* Lion Card Application (4).app */,
+				D0EDCEAA1E9FFF8700EFBB74 /* Lion Card Application (4)Tests.xctest */,
+				D0EDCEB51E9FFF8700EFBB74 /* Lion Card Application (4)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0EDCE951E9FFF8700EFBB74 /* Lion Card Application (4) */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDCE961E9FFF8700EFBB74 /* AppDelegate.swift */,
+				D0EDCE981E9FFF8700EFBB74 /* ViewController.swift */,
+				D0EDCE9A1E9FFF8700EFBB74 /* Main.storyboard */,
+				D0EDCEA01E9FFF8700EFBB74 /* Assets.xcassets */,
+				D0EDCEA21E9FFF8700EFBB74 /* LaunchScreen.storyboard */,
+				D0EDCEA51E9FFF8700EFBB74 /* Info.plist */,
+				D0EDCE9D1E9FFF8700EFBB74 /* Lion_Card_Application__4_.xcdatamodeld */,
+			);
+			path = "Lion Card Application (4)";
+			sourceTree = "<group>";
+		};
+		D0EDCEAD1E9FFF8700EFBB74 /* Lion Card Application (4)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDCEAE1E9FFF8700EFBB74 /* Lion_Card_Application__4_Tests.swift */,
+				D0EDCEB01E9FFF8700EFBB74 /* Info.plist */,
+			);
+			path = "Lion Card Application (4)Tests";
+			sourceTree = "<group>";
+		};
+		D0EDCEB81E9FFF8700EFBB74 /* Lion Card Application (4)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDCEB91E9FFF8700EFBB74 /* Lion_Card_Application__4_UITests.swift */,
+				D0EDCEBB1E9FFF8700EFBB74 /* Info.plist */,
+			);
+			path = "Lion Card Application (4)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0EDCE921E9FFF8700EFBB74 /* Lion Card Application (4) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EDCEBE1E9FFF8700EFBB74 /* Build configuration list for PBXNativeTarget "Lion Card Application (4)" */;
+			buildPhases = (
+				D0EDCE8F1E9FFF8700EFBB74 /* Sources */,
+				D0EDCE901E9FFF8700EFBB74 /* Frameworks */,
+				D0EDCE911E9FFF8700EFBB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lion Card Application (4)";
+			productName = "Lion Card Application (4)";
+			productReference = D0EDCE931E9FFF8700EFBB74 /* Lion Card Application (4).app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0EDCEA91E9FFF8700EFBB74 /* Lion Card Application (4)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EDCEC11E9FFF8700EFBB74 /* Build configuration list for PBXNativeTarget "Lion Card Application (4)Tests" */;
+			buildPhases = (
+				D0EDCEA61E9FFF8700EFBB74 /* Sources */,
+				D0EDCEA71E9FFF8700EFBB74 /* Frameworks */,
+				D0EDCEA81E9FFF8700EFBB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0EDCEAC1E9FFF8700EFBB74 /* PBXTargetDependency */,
+			);
+			name = "Lion Card Application (4)Tests";
+			productName = "Lion Card Application (4)Tests";
+			productReference = D0EDCEAA1E9FFF8700EFBB74 /* Lion Card Application (4)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0EDCEB41E9FFF8700EFBB74 /* Lion Card Application (4)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EDCEC41E9FFF8700EFBB74 /* Build configuration list for PBXNativeTarget "Lion Card Application (4)UITests" */;
+			buildPhases = (
+				D0EDCEB11E9FFF8700EFBB74 /* Sources */,
+				D0EDCEB21E9FFF8700EFBB74 /* Frameworks */,
+				D0EDCEB31E9FFF8700EFBB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0EDCEB71E9FFF8700EFBB74 /* PBXTargetDependency */,
+			);
+			name = "Lion Card Application (4)UITests";
+			productName = "Lion Card Application (4)UITests";
+			productReference = D0EDCEB51E9FFF8700EFBB74 /* Lion Card Application (4)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0EDCE8B1E9FFF8600EFBB74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sabin Kim ";
+				TargetAttributes = {
+					D0EDCE921E9FFF8700EFBB74 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					D0EDCEA91E9FFF8700EFBB74 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0EDCE921E9FFF8700EFBB74;
+					};
+					D0EDCEB41E9FFF8700EFBB74 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0EDCE921E9FFF8700EFBB74;
+					};
+				};
+			};
+			buildConfigurationList = D0EDCE8E1E9FFF8600EFBB74 /* Build configuration list for PBXProject "Lion Card Application (4)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0EDCE8A1E9FFF8600EFBB74;
+			productRefGroup = D0EDCE941E9FFF8700EFBB74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0EDCE921E9FFF8700EFBB74 /* Lion Card Application (4) */,
+				D0EDCEA91E9FFF8700EFBB74 /* Lion Card Application (4)Tests */,
+				D0EDCEB41E9FFF8700EFBB74 /* Lion Card Application (4)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0EDCE911E9FFF8700EFBB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EDCEA41E9FFF8700EFBB74 /* LaunchScreen.storyboard in Resources */,
+				D0EDCEA11E9FFF8700EFBB74 /* Assets.xcassets in Resources */,
+				D0EDCE9C1E9FFF8700EFBB74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EDCEA81E9FFF8700EFBB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EDCEB31E9FFF8700EFBB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0EDCE8F1E9FFF8700EFBB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EDCE991E9FFF8700EFBB74 /* ViewController.swift in Sources */,
+				D0EDCE971E9FFF8700EFBB74 /* AppDelegate.swift in Sources */,
+				D0EDCE9F1E9FFF8700EFBB74 /* Lion_Card_Application__4_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EDCEA61E9FFF8700EFBB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EDCEAF1E9FFF8700EFBB74 /* Lion_Card_Application__4_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EDCEB11E9FFF8700EFBB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EDCEBA1E9FFF8700EFBB74 /* Lion_Card_Application__4_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0EDCEAC1E9FFF8700EFBB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0EDCE921E9FFF8700EFBB74 /* Lion Card Application (4) */;
+			targetProxy = D0EDCEAB1E9FFF8700EFBB74 /* PBXContainerItemProxy */;
+		};
+		D0EDCEB71E9FFF8700EFBB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0EDCE921E9FFF8700EFBB74 /* Lion Card Application (4) */;
+			targetProxy = D0EDCEB61E9FFF8700EFBB74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0EDCE9A1E9FFF8700EFBB74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EDCE9B1E9FFF8700EFBB74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0EDCEA21E9FFF8700EFBB74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EDCEA31E9FFF8700EFBB74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0EDCEBC1E9FFF8700EFBB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0EDCEBD1E9FFF8700EFBB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0EDCEBF1E9FFF8700EFBB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lion Card Application (4)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.stmarksschool.sabin.Lion-Card-Application--4-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0EDCEC01E9FFF8700EFBB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lion Card Application (4)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.stmarksschool.sabin.Lion-Card-Application--4-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D0EDCEC21E9FFF8700EFBB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lion Card Application (4)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.stmarksschool.sabin.Lion-Card-Application--4-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lion Card Application (4).app/Lion Card Application (4)";
+			};
+			name = Debug;
+		};
+		D0EDCEC31E9FFF8700EFBB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lion Card Application (4)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.stmarksschool.sabin.Lion-Card-Application--4-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lion Card Application (4).app/Lion Card Application (4)";
+			};
+			name = Release;
+		};
+		D0EDCEC51E9FFF8700EFBB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Lion Card Application (4)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.stmarksschool.sabin.Lion-Card-Application--4-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Lion Card Application (4)";
+			};
+			name = Debug;
+		};
+		D0EDCEC61E9FFF8700EFBB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Lion Card Application (4)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.stmarksschool.sabin.Lion-Card-Application--4-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Lion Card Application (4)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0EDCE8E1E9FFF8600EFBB74 /* Build configuration list for PBXProject "Lion Card Application (4)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EDCEBC1E9FFF8700EFBB74 /* Debug */,
+				D0EDCEBD1E9FFF8700EFBB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EDCEBE1E9FFF8700EFBB74 /* Build configuration list for PBXNativeTarget "Lion Card Application (4)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EDCEBF1E9FFF8700EFBB74 /* Debug */,
+				D0EDCEC01E9FFF8700EFBB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0EDCEC11E9FFF8700EFBB74 /* Build configuration list for PBXNativeTarget "Lion Card Application (4)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EDCEC21E9FFF8700EFBB74 /* Debug */,
+				D0EDCEC31E9FFF8700EFBB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0EDCEC41E9FFF8700EFBB74 /* Build configuration list for PBXNativeTarget "Lion Card Application (4)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EDCEC51E9FFF8700EFBB74 /* Debug */,
+				D0EDCEC61E9FFF8700EFBB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0EDCE9D1E9FFF8700EFBB74 /* Lion_Card_Application__4_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0EDCE9E1E9FFF8700EFBB74 /* Lion_Card_Application__4_.xcdatamodel */,
+			);
+			currentVersion = D0EDCE9E1E9FFF8700EFBB74 /* Lion_Card_Application__4_.xcdatamodel */;
+			path = Lion_Card_Application__4_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0EDCE8B1E9FFF8600EFBB74 /* Project object */;
+}
