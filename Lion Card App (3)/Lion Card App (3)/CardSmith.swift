@@ -44,7 +44,7 @@ class CardSmith {
         let sha1Digest = stringToSign.hmacsha1(key: secretKey)
         let base64EncodedData = sha1Digest.base64EncodedData(options: [])
         
-        return NSString(data: base64EncodedData, encoding: String.Encoding.utf8.rawValue) as! String
+        return NSString(data: base64EncodedData, encoding: String.Encoding.utf8.rawValue)! as String
     }
     
     fileprivate static func loadDataFrom(url: URL, completion:@escaping (_ data: Data?, _ httpResponse: URLResponse?) -> Void) {

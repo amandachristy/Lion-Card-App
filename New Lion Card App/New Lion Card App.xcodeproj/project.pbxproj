@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743684F21EA65AB700467C27 /* View Controller Part 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743684F11EA65AB700467C27 /* View Controller Part 2.swift */; };
 		74C510071E5F727E008245C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C510061E5F727E008245C6 /* AppDelegate.swift */; };
 		74C510091E5F727E008245C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C510081E5F727E008245C6 /* ViewController.swift */; };
 		74C5100C1E5F727E008245C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C5100A1E5F727E008245C6 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		743684F11EA65AB700467C27 /* View Controller Part 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View Controller Part 2.swift"; sourceTree = "<group>"; };
 		74C510031E5F727E008245C6 /* New Lion Card App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Lion Card App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C510061E5F727E008245C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74C510081E5F727E008245C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				74C510061E5F727E008245C6 /* AppDelegate.swift */,
 				74C510081E5F727E008245C6 /* ViewController.swift */,
+				743684F11EA65AB700467C27 /* View Controller Part 2.swift */,
 				74C5100A1E5F727E008245C6 /* Main.storyboard */,
 				74C5100D1E5F727E008245C6 /* Assets.xcassets */,
 				74C5100F1E5F727E008245C6 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743684F21EA65AB700467C27 /* View Controller Part 2.swift in Sources */,
 				74C510091E5F727E008245C6 /* ViewController.swift in Sources */,
 				74C510071E5F727E008245C6 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +507,7 @@
 				74C5102D1E5F727E008245C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C5102E1E5F727E008245C6 /* Build configuration list for PBXNativeTarget "New Lion Card AppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				74C510301E5F727E008245C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C510311E5F727E008245C6 /* Build configuration list for PBXNativeTarget "New Lion Card AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				74C510331E5F727E008245C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -23,14 +23,14 @@ enum ResponseField: String {
 
 class User {
     static let responseFields: [ResponseField:[AnyObject]] = [
-        ResponseField.TITLE:["Page Title", 1],
-        ResponseField.URL:["Canonical URL", 4],
-        ResponseField.EXT_EQUITY_LINKS:["External Equity Links", 32],
-        ResponseField.MOZ_RANK:["MozRank: URL", 16384],
-        ResponseField.MOZ_TRUST:["MozTrust", 131072],
-        ResponseField.SPAM_SCORE:["Subdomain Spam Score", 67108864],
-        ResponseField.PAGE_AUTHORITY:["Page Authority", 34359738368],
-        ResponseField.DOMAIN_AUTHORITY:["Domain Authority", 68719476736],
-        ResponseField.TIME_LAST_CRAWLED:["Time Last Crawled", 144115188075855872]
+        ResponseField.TITLE:["Page Title" as AnyObject, 1 as AnyObject],
+        ResponseField.URL:["Canonical URL" as AnyObject, 4 as AnyObject],
+        ResponseField.EXT_EQUITY_LINKS:["External Equity Links" as AnyObject, 32 as AnyObject],
+        ResponseField.MOZ_RANK:["MozRank: URL"as AnyObject, 16384 as AnyObject],
+        ResponseField.MOZ_TRUST:["MozTrust"as AnyObject, 131072 as AnyObject],
+        ResponseField.SPAM_SCORE:["Subdomain Spam Score"as AnyObject, 67108864 as AnyObject],
+        ResponseField.PAGE_AUTHORITY:["Page Authority"as AnyObject, 34359738368 as AnyObject],
+        ResponseField.DOMAIN_AUTHORITY:["Domain Authority"as AnyObject, 68719476736 as AnyObject],
+        ResponseField.TIME_LAST_CRAWLED:["Time Last Crawled"as AnyObject, 144115188075855872 as AnyObject]
     ]
 }
