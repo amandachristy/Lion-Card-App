@@ -54,6 +54,7 @@
 		933F3F533872642C4BC67670 /* Pods-New Lion Card App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card App.release.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card App/Pods-New Lion Card App.release.xcconfig"; sourceTree = "<group>"; };
 		9D6BFC3119516D7C4934F3DF /* Pods-New Lion Card AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card AppTests/Pods-New Lion Card AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD456C0579E55BEEABF0F299 /* Pods_New_Lion_Card_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New_Lion_Card_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D004462B1EB26ACB00CA32C0 /* Lion Card App( Bridging-Header).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lion Card App( Bridging-Header).h"; sourceTree = "<group>"; };
 		D0522F941EA92E6F00E1D3FB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		D8EEDC3F48532A524070AAF1 /* Pods-New Lion Card AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card AppTests/Pods-New Lion Card AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		DACD4325030ADDDA40A7A3DC /* Pods-New Lion Card App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card App/Pods-New Lion Card App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 				74C5100D1E5F727E008245C6 /* Assets.xcassets */,
 				74C5100F1E5F727E008245C6 /* LaunchScreen.storyboard */,
 				74C510121E5F727E008245C6 /* Info.plist */,
+				D004462B1EB26ACB00CA32C0 /* Lion Card App( Bridging-Header).h */,
 			);
 			path = "New Lion Card App";
 			sourceTree = "<group>";
