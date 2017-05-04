@@ -23,10 +23,32 @@ class ViewController: UIViewController {
     }
     
     func login() {
+        
+        
+        let parameters = [
+            "email": username, //email
+            "password": password //password
+        
+        ]
         let timestamp
         
-        let params
-    }
+      
+        
+        var statusCode: Int = 0
+        Alamofire.request(.POST, "https://test.campuscardcenter.com/cs/api/globalLoginValidate", parameters: parameters, encoding: .JSON)
+            .responseJSON { response in
+                statusCode = (response.response?.statusCode)! //Gets HTTP status code, useful for debugging
+                if let value: AnyObject = response.result.value {
+                    //Handle the results as JSON
+                    let post = JSON(value)
+                    if let key = post["session_id"].string {
+                        //At this point the user should have authenticated, store the session id and use it as you wish
+                    } else {
+                        print("error detected")
+                    }
+                }
+        }
+   
     
     Alamofire
     override func didReceiveMemoryWarning() {
