@@ -9,7 +9,6 @@
 #ifndef NewLionCardApp_Bridging_Header_h
 #define NewLionCardApp_Bridging_Header_h
 
+#import <CommonCrypto/CommonHMAC.h>
 
 #endif /* NewLionCardApp_Bridging_Header_h */
-
-#import "SubscriptionChecker.h"

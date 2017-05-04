@@ -15,6 +15,7 @@
 		74C5101C1E5F727E008245C6 /* New_Lion_Card_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5101B1E5F727E008245C6 /* New_Lion_Card_AppTests.swift */; };
 		74C510271E5F727E008245C6 /* New_Lion_Card_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C510261E5F727E008245C6 /* New_Lion_Card_AppUITests.swift */; };
 		D0522F951EA92E6F00E1D3FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0522F941EA92E6F00E1D3FB /* ViewController.swift */; };
+		D0B1C2101EB8CF2C0090CF2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1C20F1EB8CF2C0090CF2D /* Extensions.swift */; };
 		E1CA80DA26BCE94E0ADD874C /* Pods_New_Lion_Card_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD456C0579E55BEEABF0F299 /* Pods_New_Lion_Card_AppUITests.framework */; };
 		EA4E17166D61D7A931188520 /* Pods_New_Lion_Card_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D465ADDB7BDCC096B44398 /* Pods_New_Lion_Card_AppTests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		CD456C0579E55BEEABF0F299 /* Pods_New_Lion_Card_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New_Lion_Card_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D004462D1EB26E8500CA32C0 /* s-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s-Bridging-Header.h"; path = "New Lion Card App/s-Bridging-Header.h"; sourceTree = "<group>"; };
 		D0522F941EA92E6F00E1D3FB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		D0B1C20F1EB8CF2C0090CF2D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D8EEDC3F48532A524070AAF1 /* Pods-New Lion Card AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card AppTests/Pods-New Lion Card AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		DACD4325030ADDDA40A7A3DC /* Pods-New Lion Card App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card App/Pods-New Lion Card App.debug.xcconfig"; sourceTree = "<group>"; };
 		EB06F70A176B27F0308719CC /* Pods-New Lion Card AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card AppUITests/Pods-New Lion Card AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				74C5100D1E5F727E008245C6 /* Assets.xcassets */,
 				74C5100F1E5F727E008245C6 /* LaunchScreen.storyboard */,
 				74C510121E5F727E008245C6 /* Info.plist */,
+				D0B1C20F1EB8CF2C0090CF2D /* Extensions.swift */,
 			);
 			path = "New Lion Card App";
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0522F951EA92E6F00E1D3FB /* ViewController.swift in Sources */,
+				D0B1C2101EB8CF2C0090CF2D /* Extensions.swift in Sources */,
 				74C510071E5F727E008245C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
