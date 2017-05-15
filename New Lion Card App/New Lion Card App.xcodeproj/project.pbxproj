@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		521132F0B4DCCA03523A76B0 /* Pods_New_Lion_Card_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEA4E1E1524D5813000579A /* Pods_New_Lion_Card_App.framework */; };
 		74C510071E5F727E008245C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C510061E5F727E008245C6 /* AppDelegate.swift */; };
-		74C5100C1E5F727E008245C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C5100A1E5F727E008245C6 /* Main.storyboard */; };
 		74C5100E1E5F727E008245C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C5100D1E5F727E008245C6 /* Assets.xcassets */; };
 		74C510111E5F727E008245C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C5100F1E5F727E008245C6 /* LaunchScreen.storyboard */; };
 		74C5101C1E5F727E008245C6 /* New_Lion_Card_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5101B1E5F727E008245C6 /* New_Lion_Card_AppTests.swift */; };
@@ -20,6 +19,7 @@
 		D02C75441EC2087F009EE367 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C75431EC2087F009EE367 /* User.swift */; };
 		D02C75461EC209D3009EE367 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C75451EC209D3009EE367 /* Account.swift */; };
 		D091A2851EC9DDC4002BC307 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = D091A2841EC9DDC4002BC307 /* credentials.plist */; };
+		D091A28F1EC9E74E002BC307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D091A28E1EC9E74E002BC307 /* Main.storyboard */; };
 		D0B1C2101EB8CF2C0090CF2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1C20F1EB8CF2C0090CF2D /* Extensions.swift */; };
 		E1CA80DA26BCE94E0ADD874C /* Pods_New_Lion_Card_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD456C0579E55BEEABF0F299 /* Pods_New_Lion_Card_AppUITests.framework */; };
 		EA4E17166D61D7A931188520 /* Pods_New_Lion_Card_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D465ADDB7BDCC096B44398 /* Pods_New_Lion_Card_AppTests.framework */; };
@@ -46,7 +46,6 @@
 		5DEA4E1E1524D5813000579A /* Pods_New_Lion_Card_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New_Lion_Card_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C510031E5F727E008245C6 /* New Lion Card App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Lion Card App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C510061E5F727E008245C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74C5100B1E5F727E008245C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74C5100D1E5F727E008245C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74C510101E5F727E008245C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74C510121E5F727E008245C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +66,7 @@
 		D02C75431EC2087F009EE367 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D02C75451EC209D3009EE367 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		D091A2841EC9DDC4002BC307 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		D091A28D1EC9E74E002BC307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0B1C20F1EB8CF2C0090CF2D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D8EEDC3F48532A524070AAF1 /* Pods-New Lion Card AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card AppTests/Pods-New Lion Card AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		DACD4325030ADDDA40A7A3DC /* Pods-New Lion Card App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card App/Pods-New Lion Card App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 			children = (
 				D004462D1EB26E8500CA32C0 /* s-Bridging-Header.h */,
 				74C510061E5F727E008245C6 /* AppDelegate.swift */,
-				74C5100A1E5F727E008245C6 /* Main.storyboard */,
+				D091A28E1EC9E74E002BC307 /* Main.storyboard */,
 				74C5100D1E5F727E008245C6 /* Assets.xcassets */,
 				74C5100F1E5F727E008245C6 /* LaunchScreen.storyboard */,
 				74C510121E5F727E008245C6 /* Info.plist */,
@@ -302,9 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74C510111E5F727E008245C6 /* LaunchScreen.storyboard in Resources */,
+				D091A28F1EC9E74E002BC307 /* Main.storyboard in Resources */,
 				D091A2851EC9DDC4002BC307 /* credentials.plist in Resources */,
 				74C5100E1E5F727E008245C6 /* Assets.xcassets in Resources */,
-				74C5100C1E5F727E008245C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,20 +509,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74C5100A1E5F727E008245C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74C5100B1E5F727E008245C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74C5100F1E5F727E008245C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				74C510101E5F727E008245C6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D091A28E1EC9E74E002BC307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D091A28D1EC9E74E002BC307 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../../../../Downloads/examples-master/20-cardsmith-app/CardSmith";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
