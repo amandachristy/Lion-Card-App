@@ -60,7 +60,7 @@
 		933F3F533872642C4BC67670 /* Pods-New Lion Card App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card App.release.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card App/Pods-New Lion Card App.release.xcconfig"; sourceTree = "<group>"; };
 		9D6BFC3119516D7C4934F3DF /* Pods-New Lion Card AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Lion Card AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-New Lion Card AppTests/Pods-New Lion Card AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD456C0579E55BEEABF0F299 /* Pods_New_Lion_Card_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New_Lion_Card_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D004462D1EB26E8500CA32C0 /* s-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "s-Bridging-Header.h"; sourceTree = "<group>"; };
+		D004462D1EB26E8500CA32C0 /* s-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "s-Bridging-Header.h"; sourceTree = "<group>"; };
 		D02C75391EC204BB009EE367 /* CardSmithApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSmithApi.swift; sourceTree = "<group>"; };
 		D02C753B1EC2068A009EE367 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D02C75411EC20854009EE367 /* UserViewControoler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewControoler.swift; sourceTree = "<group>"; };
@@ -276,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 74C50FFE1E5F727D008245C6 /* Build configuration list for PBXProject "s" */;
+			buildConfigurationList = 74C50FFE1E5F727D008245C6 /* Build configuration list for PBXProject "New Lion Card App" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -708,7 +708,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74C50FFE1E5F727D008245C6 /* Build configuration list for PBXProject "s" */ = {
+		74C50FFE1E5F727D008245C6 /* Build configuration list for PBXProject "New Lion Card App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74C510291E5F727E008245C6 /* Debug */,
