@@ -1,11 +1,10 @@
 //
 //  AppDelegate.swift
-//  New Lion Card App
+//  CardSmith
 //
-//  Created by Amanda Christy on 2/23/17.
-//  Copyright © 2017 Amanda Christy. All rights reserved.
+//  Created by Seth Battis on 5/2/17.
+//  Copyright © 2017 Seth Battis. All rights reserved.
 //
-
 import UIKit
 
 @UIApplicationMain
