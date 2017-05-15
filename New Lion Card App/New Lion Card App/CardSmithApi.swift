@@ -47,7 +47,7 @@ class CardSmithApi : NSObject {
         Alamofire.request(self.apiUrl + "globalLoginValidate", method: .post, parameters: params).responseJSON { response in
             guard let json = response.result.value as? [String: Any] else {
                 print("Did not receive a JSON response")
-                print("Error: \(response.result.error)")
+                print("Error: \(response.result.error!)")
                 return
             }
             completion(json)
